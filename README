@@ -1,1 +1,13 @@
 Banks risk class calculation project
+
+
+File 'extract.py' launched and makes first step:
+- transform financial statements of the bank from .xml tot .csv by type of account with balance on each account as of
+the reporting date;
+
+
+File 'form_fin.py' launched and does:
+ - transform .csv file recieved from execution of 'extract.pu' into readable P&L and Balance Sheets statements form
+ in accordance with NBU requirements;
+ - open file#6 in xml format, reads and extract there amount of the regulatory capital and N2 normative as of the
+reporting date;
