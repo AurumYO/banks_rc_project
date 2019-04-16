@@ -21,7 +21,6 @@ def acc_transformer(name):
         # Value Papers NBU
         if str(data['Account']) in bp.trade_VP_NBU:
             di["Trade VP NBU"] += float(data['Amount'])
-            print(di["Trade VP NBU"], 'di["Trade VP NBU"]')
         if str(data['Account']) in bp.forsale_VP_NBU:
             di["For sale VP NBU"] += float(data['Amount'])
         if str(data['Account']) in bp.due_rep_VP_NBU:
